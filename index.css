@@ -5,10 +5,8 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: ;
-    src: url();
-}
+
+
 /* 
 Tipos de format()
 -opentype(otf)
@@ -26,33 +24,63 @@ Tipos de format()
 body {
     background-color: rgb(196, 201, 166);
 
-
 }
 
-.wrapper {
+#texto {
     font-family: 'voltagem', sans-serif;
-    font-weight: normal;
-
+    text-align: center;
+    margin: 80px;
 }
+
+.bloco{
+    text-align: center;
+}
+
+#seconds{
+    font-family:'voltagem', sans-serif;
+    font-size: 90px;
+}
+
+p{
+    font-family:'voltagem', sans-serif;
+    font-size: 100px;
+}
+   
+
+#tens{
+    font-family:'voltagem', sans-serif;
+    font-size: 90px;
+}
+
+
 
 #button-start {
+    background-color: rgb(168, 168, 198);
+    font-size: larger;
     font-family: 'voltagem', sans-serif;
-    font-weight: normal;
-    position: relative;
     width: 170px;
     height: 50px;
+    border: 5px solid;
+    border-radius: 10em;
 }
 
 #button-stop {
+    background-color: rgb(168, 168, 198);
+    font-size: larger;
     font-family: 'voltagem', sans-serif;
-    text-align: center;
     width: 170px;
     height: 50px;
+    border: 5px solid;
+    border-radius: 10em;
 }
 
 #button-reset {
+    background-color: rgb(168, 168, 198);
+    font-size: larger;
     font-family: 'voltagem', sans-serif;
-    text-align: center;
     width: 170px;
     height: 50px;
+    border: 5px solid;
+    border-radius: 10em;
+
 }
