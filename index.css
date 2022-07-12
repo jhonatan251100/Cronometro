@@ -1,8 +1,54 @@
-*{
+@font-face {
+    font-family: 'voltagem';
+    src: url('fonts/HighVoltage\ Rough.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 
+Tipos de format()
+-opentype(otf)
+-truetype(ttf)
+-embedded-opentype
+-truetype-att (Apple advance Typography)
+-svg
+ */
+
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    background-color: rgb(143, 149, 108)
+body {
+    background-color: rgb(196, 201, 166);
+
+
+}
+
+.wrapper {
+    font-family: 'voltagem', sans-serif;
+    font-weight: normal;
+
+}
+
+#button-start {
+    font-family: 'voltagem', sans-serif;
+    font-weight: normal;
+    position: relative;
+    width: 170px;
+    height: 50px;
+}
+
+#button-stop {
+    font-family: 'voltagem', sans-serif;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+}
+
+#button-reset {
+    font-family: 'voltagem', sans-serif;
+    text-align: center;
+    width: 170px;
+    height: 50px;
 }
